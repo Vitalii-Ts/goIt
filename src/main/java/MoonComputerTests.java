@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MoonComputerTests2 {
+public class MoonComputerTests {
     public void testBasicInputOutput() {
         Scanner scanner = new Scanner(System.in);
         String line = scanner.nextLine();
@@ -16,6 +16,6 @@ public class MoonComputerTests2 {
     }
     //Test output on 24, 4 standard input
     public static void main(String[] args) {
-        new MoonComputerTests2().testMath();
+        new MoonComputerTests().testMath();
     }
 }
